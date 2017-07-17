@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.carousel-inner > .item img {
+    width: 100%;
+}
+
+.gallery img {
+	float: left;
+	width: 25%;
+	transition: .3s;
+}
+
+img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
